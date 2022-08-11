@@ -18,7 +18,6 @@ def getInput():
     nums = [ int(input()) for _ in range(len)]
     return nums
 
-
 def getBinaryByDecimal(decimal):
     binaryLoc = []
     for i in range(MAXBITLEN-1, -1, -1):

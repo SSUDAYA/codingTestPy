@@ -9,7 +9,6 @@ def getInput():
     inOut = [list(map(int, input().split())) for _ in range(STATIONNUM)]
     return inOut
 
-
 def getMax(inOut):
     currPsg = 0
     maxPsg = currPsg
@@ -20,7 +19,6 @@ def getMax(inOut):
         if currPsg > maxPsg:
             maxPsg = currPsg
     return maxPsg
-
 
 if __name__ == "__main__":
     main()

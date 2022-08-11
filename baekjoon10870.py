@@ -16,6 +16,5 @@ def getFib(prevFib, currFib, i, n):
     currFib = currFib + prevprevFib
     return getFib(prevFib, currFib, i+1, n)
 
-
 if __name__ == "__main__":
     main()
